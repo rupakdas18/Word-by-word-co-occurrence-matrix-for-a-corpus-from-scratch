@@ -1,8 +1,9 @@
 # Word-by-word-co-occurrence-matrix-for-a-corpus-from-scratch
 
 **Program Details:**
-This program creates a a word by word co-occurrence matrix for a corpus.The cell values in this matrix
+This program creates a word by word co-occurrence matrix for a corpus. The cell values in this matrix
 should be the Pointwise Mutual Information (PMI) between 2 words.
+
 **Code Usage:**
 The user must provide below input in below format:
 similiar-pmi.py 6 ./PA4-News-2011 input.txt
@@ -13,6 +14,7 @@ similiar-pmi.py = Program file name
 input.txt = contains pair words
 the output format will be:
 cosine(word1,word2) word1 word2 count(word1) count(word2) count(word1,word2) PMI(word1,word2)
+
 **Program Algorithm:**
 1) Read data file
   - loop through each file and read each line
